@@ -197,8 +197,8 @@ uint16_t models_configured_for_pub[] =
     MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_LIGHT_HSL_CLNT,
     MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_LIGHT_XYL_CLNT,
     MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_LIGHT_LC_CLNT,
-    MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_SENSOR_CLNT,
-    MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_SENSOR_SRV,
+    MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_SENSOR_CLNT, //will be implementing this one
+    MESH_COMPANY_ID_BT_SIG, WICED_BT_MESH_CORE_MODEL_ID_SENSOR_SRV,  //will be implementing this one
 };
 static void mesh_config_client_message_handler(uint16_t event, wiced_bt_mesh_event_t* p_event, void* p_data);
 static void configure_model_app_bind(uint16_t node_addr, wiced_bt_mesh_core_config_model_t* p_model, uint8_t element_idx, uint16_t app_key_idx);
